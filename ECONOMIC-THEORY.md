@@ -23,13 +23,14 @@ Humanity's right is to enjoy an optimal state where human will is liberated, imm
 ## 2. Mathematical Architecture of PROSUM.A
 
 ```
-Y_t = L_t^α × exp(sync_t - σ_t)
+PROSUM.A_t = L_t^(1 + (sync(r_t, f_t)/(1+R_t+σ_t)))
 
 Where:
-- Y_t = System output at time t
+...
+- PROSUM.A_t = System output at time t
 - L_t = Active human innovation factor
-- α = Elasticity coefficient (1.0)
 - sync_t = Synchronization function (f_t, r_t)
+- R_t = Responsiveness and Knowledge Development Vector
 - σ_t = Institutional drag coefficient
 ```
 
@@ -39,14 +40,14 @@ The active creative cohort represents 27% of population, growing as:
 
 ```
 L_t = L_0 × exp(n × t)
-Where: n = 0.015 × (r_t / f_t + 1) ∈ [0.03, 0.045]
+Where: n = 0.015 × (r_t / f_t + 1) ∈ [0.03, 0.035]
 ```
 
 ### Synchronization Function
 
 ```
-sync_t = ln(f_t + r_t + e × f_t × r_t)
-At full abundance (r=f=1): sync → ln(2e) ≈ 1.693
+sync_t = f_t × (1 + ln(1+ r_t/f_t))
+At full abundance (r=f=1): sync → 1+ln(2) ≈ 1.693
 ```
 
 ### Flow and Robotics Efficiency
@@ -64,20 +65,21 @@ Where k = 0.65 year^-1
 ```
 R_t = θ × (f_t / r_t), where θ = 0.32
 ```
-
 Distributed as:
 - Human-Core Diagnostics: 31.0%
 - Extra-Terrestrial Infrastructure: 12.5%
 - Cyber-Protection: 18.75%
 - Infrastructure & Fusion: 37.5%
 
-### Institutional Drag Coefficient (σ_t)
+### Institutional and Sectoral Drag Coefficient (σ_t)
 
 ```
-σ_t = 0.2 × G + D_sec
+- σ_t = 0.2×e^(λ×(1-f_t)+γ×G)×(1+D_sec)
+- D_sec = (1-f_t)×[ τ×|2ρ-1| + μ×d_cagr].
 ```
-
-Measures bureaucratic resistance to flow liquidity.
+Measures bureaucratic and sectoral resistance to flow liquidity.
+Where D_sec isolates the structural drag divergence between high-tech ecosystems and slower primary sectors:
+size variance weight τ = 0.15, growth variance weight μ = 0.5, relative high-tech sector volume ρ = 0.35, and current sector growth rate differential d_cagr = 7\%. Government artificial preservation of scarcity frameworks is captured via (G = 0.25) with a direct impact weight of γ  = 0.2.
 
 ## 4. Dynamic Simulation (2026 – 2046)
 
