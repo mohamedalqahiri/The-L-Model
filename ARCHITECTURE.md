@@ -1,4 +1,4 @@
-# System Architecture: The L-Exponential Model
+# System Architecture: The L-Model
 
 This document outlines the operational and structural interaction between the physical layers of production and the decentralized cryptographic governance network.
 
