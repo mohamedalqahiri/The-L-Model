@@ -1,10 +1,10 @@
-# The L-Exponential Model 🌌
+# The L-Model 🌌
 
 ## English Version
 
 ### Overview
 
-**The L-Exponential Model** is a revolutionary economic and governance framework designed to transition humanity from an era of "scarcity management and corruption" to an era of "absolute abundance and human flourishing."
+**The L-Model** is a revolutionary economic and governance framework designed to transition humanity from an era of "scarcity management and corruption" to an era of "absolute abundance and human flourishing."
 
 This open-source protocol integrates:
 - 🔹 **Global Binary Governance (GBG)** - Direct, non-intermediated governance between decentralized infrastructure and global subscribers
