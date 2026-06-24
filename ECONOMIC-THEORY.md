@@ -29,9 +29,10 @@ Where:
 ...
 - PROSUM.A_t = System output at time t
 - L_t = Active human innovation factor
+- ‹1› in the exponent = Inherent Cognitive Constant.
 - sync_t = Synchronization function (f_t, r_t)
 - R_t = Responsiveness and Knowledge Development Vector
-- σ_t = Institutional drag coefficient
+- σ_t = Institutional and sectoral drag coefficient
 ```
 
 ### Human Innovation Factor (L_t)
@@ -64,7 +65,7 @@ Where k = 0.65 year^-1
 
 ```
 R_t = θ × (f_t / r_t), where θ = 0.32
-```
+
 Distributed as:
 - Human-Core Diagnostics: 31.0%
 - Extra-Terrestrial Infrastructure: 12.5%
@@ -74,8 +75,9 @@ Distributed as:
 ### Institutional and Sectoral Drag Coefficient (σ_t)
 
 ```
-- σ_t = 0.2×e^(λ×(1-f_t)+γ×G)×(1+D_sec)
-- D_sec = (1-f_t)×[ τ×|2ρ-1| + μ×d_cagr].
+- σ_t = 0.20×(1 + D_sec)×e^(λ×(1–f_t)+ γ × G)
+  Where 0.20 = Non-reducible institutional inhibition;  λ = 0.30.
+- D_sec = (1–f_t)×[τ×|2ρ – 1| + μ×d_cagr].
 ```
 Measures bureaucratic and sectoral resistance to flow liquidity.
 Where D_sec isolates the structural drag divergence between high-tech ecosystems and slower primary sectors:
@@ -85,13 +87,13 @@ size variance weight τ = 0.15, growth variance weight μ = 0.5, relative high-t
 
 ### Key Results
 
-| Year | Flow (f_t) | Robotics (r_t) | Sync | Drag (σ_t) | Output | L-Model | Cobb-Douglas |
+| Year | Flow (f_t) | Robotics (r_t) | Sync | Drags (1+ R_t + σ_t) | Output | L-Model | Cobb-Douglas |
 |---|---|---|---|---|---|---|---|
-| 2026 | 0.150 | 0.200 | 0.288 | 0.581 | 1.159 | 1.00x | 1.00x |
-| 2029 | 0.528 | 0.622 | 1.026 | 0.342 | 1.652 | 3.42x | 1.09x |
-| 2032 | 0.884 | 0.923 | 1.536 | 0.218 | 2.031 | 12.85x | 1.19x |
-| 2036 | 0.985 | 0.992 | 1.674 | 0.201 | 2.158 | 45.10x | 1.34x |
-| 2046 | 1.000 | 1.000 | 1.693 | 0.200 | 2.113 | 318.4x | 1.82x |
+| 2026 | 0.150 | 0.200 | 0.277 | 1.530 | 1.181 | 1.00x | 1.00x |
+| 2029 | 0.528 | 0.622 | 0.978 | 1.527 | 1.640 | 3.42x | 1.09x |
+| 2032 | 0.884 | 0.923 | 1.533 | 1.529 | 2.003 | 12.85x | 1.19x |
+| 2036 | 0.985 | 0.992 | 1.680 | 1.530 | 2.098 | 45.10x | 1.34x |
+| 2046 | 1.000 | 1.000 | 1.693 | 1.530 | 2.106 | 318.4x | 1.82x |
 
 ### Transition Phases
 
