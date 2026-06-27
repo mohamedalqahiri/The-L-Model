@@ -9,7 +9,7 @@ $$PROSUM.A = L_t^{1 + \left( \frac{\text{sync}(r_t, f_t)}{1 + R_t + \sigma_t} \r
 
 ### Parameter Operational Boundaries:
 * $r_t \in [0.20, 1.00]$ (Deep Robotics Saturation Index)
-* $f_t \in [0.10, 1.00]$ (Material-Energy Flow Liquidity)
+* $f_t \in [0.15, 1.00]$ (Material-Energy Flow Liquidity)
 * $\sigma_t$ (Institutional and Sectoral Drag Co-efficient)
 
 ## Appendix B: The Rawlsian Mitigator (Pseudo-Code Block)
@@ -27,5 +27,3 @@ def calculate_rawlsian_weight(algorithmic_complexity, global_mean_complexity, ge
     return final_qbits_minted
 ---
 
-### 3️⃣ الملف الثالث: `CONTRIBUTING.md`
-*(انسخ النص أدناه بالكامل وضعه داخل ملف بهذا الاسم)*
