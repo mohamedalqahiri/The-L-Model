@@ -79,3 +79,10 @@ The transition to Creatocracy relies on technological obsolescence, not politica
 3. Buterin, V. (2014). Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform.
 4. Von Mises, L. (1920). Economic Calculation in the Socialist Commonwealth.
 5. Zuboff, S. (2019). The Age of Surveillance Capitalism. PublicAffairs.
+
+---
+License & Intellectual Property
+​This project is dual-licensed to maximize academic diffusion while preventing commercial enclosure:
+​Theoretical Framework & Documentation: Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+​Source Code & Simulations: Licensed under PolyForm Noncommercial License 1.0.0.
+​Core Principle: All derivatives must remain non-commercial, open-source, and attributed to Dr. Mohamed Al-Qahiri.
