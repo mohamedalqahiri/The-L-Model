@@ -81,12 +81,11 @@ We welcome contributors from all disciplines:
 
 ### License
 
-This project is licensed under the **L-Model Copyleft License v1.0** and **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
-
-**Core Principle**: All derivatives must remain open-source, free, and available to humanity. Commercial exploitation and patent enclosure are strictly prohibited.
-
-See [L-MODEL-COPYLEFT-LICENSE.md](L-MODEL-COPYLEFT-LICENSE.md) for full terms.
-
+License & Intellectual Property
+This project is dual-licensed to maximize academic diffusion while preventing commercial enclosure:
+Theoretical Framework & Documentation: Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+Source Code & Simulations: Licensed under PolyForm Noncommercial License 1.0.0.
+Core Principle: All derivatives must remain non-commercial, open-source, and attributed to Dr. Mohamed Al-Qahiri.
 ---
 
 ## النسخة العربية
