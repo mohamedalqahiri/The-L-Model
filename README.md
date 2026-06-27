@@ -86,7 +86,6 @@ This project is dual-licensed to maximize academic diffusion while preventing co
 Theoretical Framework & Documentation: Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
 Source Code & Simulations: Licensed under PolyForm Noncommercial License 1.0.0.
 Core Principle: All derivatives must remain non-commercial, open-source, and attributed to Dr. Mohamed Al-Qahiri.
----
 
 ## النسخة العربية
 
