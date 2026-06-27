@@ -117,3 +117,12 @@ size variance weight τ = 0.15, growth variance weight μ = 0.5, relative high-t
 3. Rawls, J. (1971). A Theory of Justice.
 4. Nakamoto, S. (2008). Bitcoin: A Peer-to-Peer Electronic Cash System.
 5. Schumpeter, J. A. (1942). Capitalism, Socialism and Democracy.
+
+...
+License & Intellectual Property
+This project is dual-licensed to maximize academic diffusion while preventing commercial enclosure:
+Theoretical Framework & Documentation: Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+Source Code & Simulations: Licensed under PolyForm Noncommercial License 1.0.0.
+Core Principle: All derivatives must remain non-commercial, open-source, and attributed to Dr. Mohamed Al-Qahiri.
+...
+
