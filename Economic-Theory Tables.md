@@ -14,6 +14,7 @@
 | $$\sigma_t = 0.2 \cdot (1 + \text{Dsec}) \cdot E_{\text{inst}_t}$$ | $0.2 \leq \sigma_t$ | Entropy<br>coefficient |
 | $$E_{\text{inst}_t} = e^{\lambda(1 - f_t) + c}$$ | $\lambda > 0$ | Institutional<br>energy |
 | $$\text{Dsec}_t = (1 - f_t) \cdot \left[\tau \cdot \|2\rho - 1\|\right]$$ | $0 \leq \text{Dsec}_t$ | Dissipation<br>coefficient |
+
 ### Table of Equations
 
 | Equation | Value range & unit | Role/source |
