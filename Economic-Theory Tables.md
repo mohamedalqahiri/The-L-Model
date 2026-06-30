@@ -23,15 +23,15 @@
 | $L_t = L_0 \cdot (1 + n)^t$ | $0.0 < L_0 \leq 0.50 \ (0.27)$ | Active human innovation factor as % of total population. |
 | $n = 0.015 \cdot \left(\frac{r_t}{f_t} + 1\right)$ | $n : 3.5\% \rightarrow 3\%$ | Natural growth rate of innovators augmented by synergy with AI. |
 | $\langle 1 \rangle$ in the exponent = Constant. | | Human Inherent Cognitive. |
-| $\text{Sync}_t = f_t \cdot \left\{1 + \ln\left(1 + \frac{r_t}{f_t}\right)\right\}$ | with $r = f = 1$ : $\text{Sync} = 1.693$ | Matter & Energy Input flow \'$f$\' and Processing Robotic \'$r$\' sync. ensures system vitality. |
+|$$\text{Sync}_t = f_t \cdot \left(1 + \ln\left(1 + \frac{f_t}{r_t}\right)\right)$$ | Matter & Energy Input flow \'$f$\' and Processing Robotic \'$r$\' sync. ensures system vitality. |
 | $f_t = \frac{1}{1 + 5.667 \cdot e^{-0.k \cdot t}}$ | $f : 0.15 \rightarrow 1.0$ | Inputs Flow/Total inputs (flow+stock). |
 | $r_t = \frac{1}{1 + 4 \cdot e^{-0.k \cdot t}}$ | $r : 0.2 \rightarrow 1.0$ | Robotized Processing/Total Processing Work Load |
 | | $k = 0.65$ | Accelerator growth rate of robotics and inputs flow in high tech ecosystem. |
 | Total Absorptions $= 1 + R + \sigma$ | | |
 | $R_t = \theta \cdot \frac{f_t}{r_t}$ | $\theta = 0.24 \rightarrow 0.32$ | Responsiveness Development Vector |
 | $\sigma_t = 0.2 \cdot (1 + \text{Dsec}) \cdot E_{\text{inst}}$ | $0.2$ drag base | Institutional and sectoral drag coefficient |
-| $E_{\text{inst\_t}} = e^{\lambda(1 - f_t) + c}$ | $\lambda : 0.3 \rightarrow 0$ | Institutional drag coefficient |
-| $\text{Dsec}_t = (1 - f_t) \cdot [\tau \cdot |2\rho - 1| + \mu \cdot d_{\text{cagr}}(t)]$ | | Sectoral drag coefficient |
+| $$E_{\text{inst}_t} = e^{\lambda(1 - f_t) + c}$$ | $\lambda : 0.3 \rightarrow 0$ | Institutional drag coefficient |
+| $\text{Dsec}_t = (1 - f_t) \cdot (\tau \cdot |2\rho - 1| + \mu \cdot d_{\text{cagr}}(t))| | Sectoral drag coefficient |
 
 ### Parameters Table
 
