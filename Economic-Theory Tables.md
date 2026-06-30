@@ -30,8 +30,8 @@
 | Total Absorptions $= 1 + R + \sigma$ | | |
 | $R_t = \theta \cdot \frac{f_t}{r_t}$ | $\theta = 0.24 \rightarrow 0.32$ | Responsiveness Development Vector |
 | $\sigma_t = 0.2 \cdot (1 + \text{Dsec}) \cdot E_{\text{inst}}$ | $0.2$ drag base | Institutional and sectoral drag coefficient |
-| $$\text{Einst}_t} = e^{\lambda(1 - f_t) +0.05 }$$ | $\lambda : 0.3 \rightarrow 0$ | Institutional drag coefficient |
-| $$\text{Dsec}_t = (1 - f_t) \cdot (\tau \cdot abs(2\rho - 1) + \mu \cdot {0.0425))| | Sectoral drag coefficient |
+| $$E_{\text{inst}_t} = e^{\lambda(1 - f_t) + c}$$ | $\lambda : 0.3 \rightarrow 0$ | Institutional drag coefficient |
+| $$\text{Dsec}_t = (1 - f_t) \cdot (\tau \cdot abs(2\rho - 1) + \mu \cdot {0.0425))$ | | Sectoral drag coefficient |
 
 ### Parameters Table
 
