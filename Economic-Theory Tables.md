@@ -4,7 +4,7 @@
 
 | Equation | Value range & unit | Role/source |
 | :--- | :--- | :--- |
-| $\text{PROSUM.A}_t = L_t \cdot \left(1 + \frac{\text{sync}(r_t / f_t)}{1 + R + \sigma}\right)$ | | System output at time $t$ |
+| $\text{PROSUM.A}_t = L_t^(1 + \frac{\text{sync}(r_t / f_t)}{1 + R + \sigma}\right)$ | | System output at time $t$ |
 | $L_t = L_0 \cdot (1 + n)^t$ | $0.0 < L_0 \leq 0.50 \ (0.27)$ | Active human innovation factor as % of total population. |
 | $n = 0.015 \cdot \left(\frac{r_t}{f_t} + 1\right)$ | $n : 3.5\% \rightarrow 3\%$ | Natural growth rate of innovators augmented by synergy with AI. |
 | $\langle 1 \rangle$ in the exponent = Constant. | | Human Inherent Cognitive. |
@@ -15,8 +15,8 @@
 | Total Absorptions $= 1 + R + \sigma$ | | |
 | $R_t = \theta \cdot \frac{f_t}{r_t}$ | $\theta = 0.28 (mid-point of 0.24 , 0.32$ | Responsiveness Development Vector |
 | $\sigma_t = 0.2 \cdot (1 + \text{Dsec}) \cdot E_{\text{inst}}$ | $0.2$ drag base | Institutional and sectoral drag coefficient |
-| $$E_{\text{inst}_t} = e^{\lambda(1 - f_t) + c}$$| $\lambda : 0.3 \rightarrow 0$ | Institutional drag coefficient |
-| $$\text{Dsec}_t = (1 - f_t) \cdot (\tau \cdot abs(2\rho - 1) + \mu \cdot\text{d.cagr}(t) )$ |d_cagr = 0.0425 | Sectoral drag coefficient |
+| $E_{\text{inst}_t} = e^{\lambda(1 - f_t) + c}$| $\lambda : 0.3 \rightarrow 0$ | Institutional drag coefficient |
+| $\text{Dsec}_t = (1 - f_t) \cdot (\tau \cdot abs(2\rho - 1) + \mu \cdot\text{d.cagr}(t) )$ |d_cagr = 0.0425 | Sectoral drag coefficient |
 
 ### Parameters Table
 
@@ -30,7 +30,7 @@
 | | | |
 | $G = G = \text{Subsidies} / \text{Total GDP}$ | $0.25$ | Government subsidies to primary sector // World Bank, IMF. |
 | $\gamma =$ | $0.2$ | Direct impact weight of subsidies // US Federal Reserve. |
-| $c = G × gamma$ | $0.05$ | Policy impact // OECD |
+| $c = G × $gamma$ | $0.05$ | Policy impact // OECD |
 | $\tau$ | $0.15$ | Size variance weight // World Bank Sector Data. |
 | $\mu$ | $0.5$ | Growth variance weight // IMF Growth Reports |
 | $\rho = GDP {h-tech}/Total GDP$ | $0.35$ | Relative high-tech sector volume // UNCTAD, BIS. |
