@@ -4,11 +4,11 @@
 
 | Equation | Value range & unit | Role/source |
 | :--- | :--- | :--- |
-| $\text{PROSUM.A}_t = L_t^(1 + \frac{\text{sync}(r_t / f_t)}{1 + R + \sigma}\right)$ | | System output at time $t$ |
+| $\text{PROSUM.A}_t = L_t^{\left(1 + \dfrac{\text{Sync}_t}{1 + R_t + \sigma_t}\right)}$ | | System output at time $t$ |
 | $L_t = L_0 \cdot (1 + n)^t$ | $0.0 < L_0 \leq 0.50 \ (0.27)$ | Active human innovation factor as % of total population. |
 | $n = 0.015 \cdot \left(\frac{r_t}{f_t} + 1\right)$ | $n : 3.5\% \rightarrow 3\%$ | Natural growth rate of innovators augmented by synergy with AI. |
 | $\langle 1 \rangle$ in the exponent = Constant. | | Human Inherent Cognitive. |
-|$$\text{Sync}_t = f_t \cdot \left(1 + \ln\left(1 + \frac{f_t}{r_t}\right)\right)$$|with r= f=1, sync = 1.693 |Matter & Energy Input flow \'$f$\' and Processing Robotic \'$r$\' sync. ensuring system vitality. |
+|$$\text{Sync}_t = f_t \cdot \left(1 + \ln\left(1 + \frac{f_t}{r_t}\right)\right)$$|with r= f=1, sync = 1.693 |Matter & Energy Input flow \'$f$\' and Processing Robotic \'$r$\' sync. ensuring syst[...]
 | $f_t = \frac{1}{1 + 5.667 \cdot e^{-0.k \cdot t}}$ | $f : 0.15 \rightarrow 1.0$ | Inputs Flow/Total inputs (flow+stock). |
 | $r_t = \frac{1}{1 + 4 \cdot e^{-0.k \cdot t}}$ | $r : 0.2 \rightarrow 1.0$ | Robotized Processing/Total Processing Work Load |
 | | $k = 0.65$ | Accelerator growth rate of robotics and inputs flow in high tech ecosystem. |
