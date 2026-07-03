@@ -23,14 +23,14 @@
 | Parameters | Value range and unit | Role/source |
 | :--- | :--- | :--- |
 | $R \text{ Distrib.} = a_{IQ} + a_{\text{Phi}} + a_{\text{Ser}} + a_{\text{infra}}$ | | //Calibrated based on US, Germany and China data. |
-| As % $R_t$ : $IQ_t =$ | $31.0\%$ | - Human-Core Development. |
+| As a % of $R_t$ :  $IQ_t =$ | $31.0\%$ | - Human-Core Development. |
 | $Phi_t =$ | $12.5\%$ | - Extra-Terrestrial Infrastructure. |
 | $Ser =$ | $18.75\%$ | - Cyber-Protection. |
 | $infra =$ | $37.5\%$ | - Infrastructure & Energy. |
 | | | |
 | $G = G = \text{Subsidies} / \text{Total GDP}$ | $0.25$ | Government subsidies to primary sector // World Bank, IMF. |
 | $\gamma =$ | $0.2$ | Direct impact weight of subsidies // US Federal Reserve. |
-| $c = G × $gamma$ | $0.05$ | Policy impact // OECD |
+| $c = G × gamma$ | $0.05$ | Policy impact // OECD |
 | $\tau$ | $0.15$ | Size variance weight // World Bank Sector Data. |
 | $\mu$ | $0.5$ | Growth variance weight // IMF Growth Reports |
 | $\rho = GDP {h-tech}/Total GDP$ | $0.35$ | Relative high-tech sector volume // UNCTAD, BIS. |
@@ -43,7 +43,7 @@ $t = 5; \ L_0 = 100; \ c = 0.05; \ \tau = 0.15; \ \mu = 0.5; \ \rho = 0.35:$
 | | |
 | :--- | :--- |
 | $\text{PROSUM.A} = 116.67^{(1 + 1.411 / (1 + 0.303 + 0.224))} =$ | **9,482.511** |
-| $L_5 = 27 \cdot \text{EXP}(1)^{(0.0303 \cdot 5)} =$ | 116.673 |
+| $L_5 = 100\cdot \text{EXP}(1)^{(0.0303 \cdot 5)} =$ | 116.673 |
 | $n(5) = 0.015 \cdot (0.866 / 0.82 + 1) =$ | 0.031 |
 | $\text{Sync}(5) = 0.820 \cdot (1 + \text{LN}(1 + 0.866 / 0.82)) =$ | 1.411 |
 | $f_5 = 1 / (1 + 5.667 \cdot \text{EXP}(1)^{(-0.65 \cdot 5)}) =$ | 0.820 |
