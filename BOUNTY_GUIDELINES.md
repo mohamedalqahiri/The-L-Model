@@ -22,7 +22,7 @@ Top-tier contributors who solve critical computational or mathematical synchroni
 ## 🎯 Current Technical Focus
 To avoid fragmentation, contributions are strictly limited to the **Minimal Viable Simulation (MVS)**:
 * Optimizing the Python core engine to seamlessly render the 13-year macroeconomic synchronization curves.
-* Refining the synchronization functions and variables within the production function equation: $Y = L^{[1+(r+f)/2]*(1+p)}$.
+* Refining the synchronization functions and variables within the production function equation: $\text{PROSUM.A}_t = L_t^{\left(1 + \dfrac{\text{Sync}_t}{1 + R_t + \sigma_t}\right)}$. (See Economic Theory, Tables.md). 
 
 *Join us to engineer a post-scarcity future, built on rigorous mathematics and structural alignment.*
 
