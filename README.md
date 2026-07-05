@@ -43,7 +43,6 @@ This open-source protocol integrates:
 | [ECONOMIC-THEORY.md](ECONOMIC-THEORY.md) | Mathematical foundations and PROSUM.A function |
 | [TECHNICAL-APPENDICES.md](TECHNICAL-APPENDICES.md) | Smart contracts, algorithms, and implementation details |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | System architecture and component interactions |
-| [L-MODEL-COPYLEFT-LICENSE.md](L-MODEL-COPYLEFT-LICENSE.md) | L-Model Copyleft License v1.0 |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
 
 ### Quick Start
