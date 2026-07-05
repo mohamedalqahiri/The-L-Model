@@ -1,20 +1,25 @@
-# Project Licensing: The L-Exponential Model (V1)
+# The L-Exponential Model (V1): Dual-Licensing Framework
 
-This repository applies a dual-licensing strategy to accommodate a diverse, non-commercial ecosystem of researchers and developers while protecting the core framework from commercial exploitation.
-
----
-
-## 1. Documentation & Theoretical Framework (Texts, Equations, Appendices)
-All written documentation, mathematical models, and theoretical descriptions in this repository are licensed under:
-👉 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-* Attribution: You must give appropriate credit to Dr. Mohamed Al-Qahiri.
-* Non-Commercial: You may not use the material for commercial purposes.
-* ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+To preserve the sovereign, academic, and non-commercial integrity of The L-Exponential Model (V1), this repository operates under a strict dual-licensing framework tailored to protect both theoretical and programmatic architectures.
 
 ---
 
-## 2. Source Code, Demos, and Smart Contracts
-All functional source code, scripts, software simulations, and smart contracts in this repository are licensed under:
-👉 PolyForm Noncommercial License 1.0.0
-* Permitted Use: You may use, modify, and distribute this software for any non-commercial purpose (educational, personal, research, or non-profit organization deployment).
-* Commercial Restrictions: Any commercial use, including offering the software as a service (SaaS) or using it within a for-profit entity, requires a separate, written commercial license from the author.
+## 1. Documentation & Intellectual Framework (CC BY-NC-SA 4.0)
+All textual content, white papers, philosophical frameworks, economic models, and conceptual explanations in this repository are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+
+* **Permitted:** You are free to share, copy, and adapt the material for non-commercial, academic, and research purposes.
+* **Requirements:** You must give appropriate credit and distribute any derivative work under the same license.
+* **Prohibited:** Any commercial exploitation, distribution, or monetization of the conceptual framework is strictly forbidden.
+
+---
+
+## 2. Codebase & Simulation Software (PolyForm Non-Commercial 1.0.0)
+All programmatic code, scripts, Python simulations, database architectures, and algorithms—including the core engines of the **Silsal Protocol** and the **DE 1-2-1** matrix—are licensed under the **PolyForm Non-Commercial License 1.0.0**.
+
+* **Permitted:** You may use, modify, and distribute this software for personal, educational, research, and non-commercial simulation activities.
+* **Prohibited:** You may NOT use this software for any commercial purpose, including but not limited to generating revenue, enterprise testing, or incorporating it into commercial web applications.
+
+---
+
+## 💼 Sovereign & Enterprise Integration
+Exceptional commercial licensing, private deployment, or sovereign institutional integrations are strictly restricted. Such implementations are handled exclusively via independent, sovereign-level bilateral agreements.
