@@ -14,8 +14,8 @@ def calculate_potential_value(ac, engagements, max_engagement):
         product *= max(r, 1) # Prevent zero multiplication
     geomean = product ** (1.0 / len(engagements))
     
-    # Lp = Max(AC, AC * (1 + Geomean (R_i)/ R_max))
-    lp_scaled = ac * (1.0 + (geomean (R_i)/ max_engagement))
+    # Lp = Max(AC, AC * (1 + Geomean / R_max)
+    lp_scaled = ac * (1.0 + (geomean / max_engagement))
     return max(ac, lp_scaled)
 
 def calculate_rawlsian_weight(ac, ac_bar, lp):
