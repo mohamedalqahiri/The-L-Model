@@ -14,7 +14,7 @@ def calculate_potential_value(ac, engagements, max_engagement):
         product *= max(r, 1) # Prevent zero multiplication
     geomean = product ** (1.0 / len(engagements))
     
-    # Lp = Max(AC, AC * (1 + Geomean / R_max)
+    # Lp = Max(AC, AC * (1 + Geomean / R_max))
     lp_scaled = ac * (1.0 + (geomean / max_engagement))
     return max(ac, lp_scaled)
 
@@ -52,4 +52,4 @@ if __name__ == "__main__":
     lp_b = calculate_potential_value(ac_b, likes_b, max_engagement=10000)
     wr_b = calculate_rawlsian_weight(ac_b, platform_ac_bar, lp_b)
     print(f"Complexity (AC): {ac_b} | Potential Value (Lp): {lp_b:.4f} | Rawlsian Weight (Wr): {wr_b:.4f}\n")
-  
+    
