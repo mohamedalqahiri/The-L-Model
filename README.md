@@ -11,7 +11,7 @@ This open-source protocol integrates:
 - 🔹 **Creatocracy** - A system where innovation and scientific contribution dictate resource allocation
 - 🔹 **PROSUM.A Engine** - An integrated production-consumption function that generates exponential abundance
 - 🔹 **Rawlsian Justice Contract** - Protection against populism through algorithmic complexity weighting
-- 🔹 **Q-Bits Currency** - Sovereign digital value units based on verified innovation
+- 🔹 **Q-Bits Framework** - A Recognition and Information Layer based on verified innovation
 - 🔹 **CETEF** - Cosmic Exploration and Transcendence Endowment Fund for intergenerational scaling
 
 ### Core Principles
