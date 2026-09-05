@@ -10,8 +10,8 @@
 * [ ] Build Abstract Syntax Tree (AST) analyzers to compute `Algorithmic Complexity (AC)` dynamically.
 * [ ] Integrate the *Rawlsian Mitigator* to filter low-complexity code duplication.
 
-Phase 3: L2 Testnet Deployment & Q-Bits Minting (Next 120 Days)
-* [ ] Design Solidity Smart Contracts for sovereign $Q\text{-}Bits$ generation.
+Phase 3: L2 Testnet Deployment & Q-Bits Piloting (Next 120 Days)
+* [ ] Design Solidity Smart Contracts for $Q\text{-}Bits$ generation.
 * [ ] Deploy prototype ecosystem on Arbitrum/Optimism testnets.
 * [ ] Launch alpha dashboard for `DE 1-2-1` skill verification interface.
 * [ ] 
