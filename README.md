@@ -28,7 +28,6 @@ This open-source protocol integrates:
 - 🔐 **Decentralized Security** - Zero-Knowledge Proofs, cryptographic immutability, radical transparency
 - 🚀 **Scalable Architecture** - From local proxy networks to cosmic civilization expansion
 - 🌍 **Multilingual Documentation** - English, French, Arabic
-- 💡 **Open Innovation** - Copyleft viral licensing ensures all derivatives remain open-source
 
 ### Technology Stack
 
