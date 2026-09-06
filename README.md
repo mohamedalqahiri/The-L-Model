@@ -14,6 +14,8 @@ This open-source protocol integrates:
 - 🔹 **Q-Bits Framework** - A Recognition and Information Layer based on verified innovation
 - 🔹 **CETEF** - Cosmic Exploration and Transcendence Endowment Fund for intergenerational scaling
 
+> **PQ-Bits terminology:** The [PQ-Bits Concept Note](PQ-Bits–concept–note.md) is the current research definition of this component. References to Q-Bits as a currency, token, or minted asset in earlier V1 documents are legacy formulations under review; they do not define the recognition-layer research presented in the concept note.
+
 ### Core Principles
 
 1. **Unconditional Freedom of Entry** - Immediate, frictionless access to life-sustaining services
@@ -39,6 +41,7 @@ This open-source protocol integrates:
 
 | Document | Purpose |
 |----------|----------|
+| [PQ-Bits Concept Note](PQ-Bits–concept–note.md) | Current research definition of the design-lineage and persistent-recognition layer |
 | [WHITEPAPER.md](WHITEPAPER.md) | Institutional and political architecture of Creatocracy and GBG |
 | [ECONOMIC-THEORY.md](ECONOMIC-THEORY.md) | Mathematical foundations and PROSUM.A function |
 | [TECHNICAL-APPENDICES.md](TECHNICAL-APPENDICES.md) | Smart contracts, algorithms, and implementation details |
@@ -86,6 +89,8 @@ Theoretical Framework & Documentation: Licensed under Creative Commons Attributi
 Source Code & Simulations: Licensed under PolyForm Noncommercial License 1.0.0.
 Core Principle: All derivatives must remain non-commercial, open-source, and attributed to Dr. Mohamed Al-Qahiri.
 
+Specific file exception: [`PQ-Bits–concept–note.md`](PQ-Bits–concept–note.md) is separately licensed under CC BY-SA 4.0, as stated in that file. This exception does not change the general licences above for the rest of the L-Model repository.
+
 ## النسخة العربية
 
 ### نظرة عامة
@@ -97,8 +102,10 @@ Core Principle: All derivatives must remain non-commercial, open-source, and att
 - 🔹 **الكريتوقراطية** - نظام يحكم الابتكار والمساهمة العلمية توزيع الموارد
 - 🔹 **محرك PROSUM.A** - دالة إنتاج-استهلاك متكاملة تولد وفرة أسية
 - 🔹 **عقد راولز الذكي** - حماية من الشعبوية من خلال ترجيح التعقيد الخوارزمي
-- 🔹 **عملة Q-Bits** - وحدات قيمة رقمية سيادية بناءً على الابتكار المحقق
+- 🔹 **إطار Q-Bits** - طبقة عرفان ومعلومات قائمة على الابتكار المتحقق
 - 🔹 **CETEF** - صندوق الاستكشاف الكوني والتسامي للتوسع بين الأجيال
+
+> **مصطلح PQ-Bits:** تمثل [مذكرة مفهوم PQ-Bits](PQ-Bits–concept–note.md) التعريف البحثي الحالي لهذا المكوّن. أما إشارات وثائق V1 السابقة إلى Q-Bits كعملة أو توكين أو أصل يجري سكّه فهي صياغات قديمة قيد المراجعة، ولا تعرّف طبقة العرفان المعروضة في المذكرة.
 
 ### المبادئ الأساسية
 

@@ -10,8 +10,8 @@
 * [ ] Build Abstract Syntax Tree (AST) analyzers to compute `Algorithmic Complexity (AC)` dynamically.
 * [ ] Integrate the *Rawlsian Mitigator* to filter low-complexity code duplication.
 
-Phase 3: L2 Testnet Deployment & Q-Bits Piloting (Next 120 Days)
-* [ ] Design Solidity Smart Contracts for $Q\text{-}Bits$ generation.
-* [ ] Deploy prototype ecosystem on Arbitrum/Optimism testnets.
-* [ ] Launch alpha dashboard for `DE 1-2-1` skill verification interface.
-* [ ] 
+Phase 3: PQ-Bits Recognition-Layer Pilot (Next 120 Days)
+* [ ] Define a versioned schema for added and inherited design relationships and their evidence classes.
+* [ ] Build a prototype registry and lineage graph from two or three open-source software cases.
+* [ ] Evaluate whether an L2 ledger adds necessary auditability after validating the evidence model.
+* [ ] Launch an alpha review interface for attestations, corrections, and disputed lineage claims.
